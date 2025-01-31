@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn-custom {
+    background-color: #4C3BCF;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.btn-custom:hover {
+    background-color: #4B70F5;
+}
